@@ -1,3 +1,11 @@
+console.log("MONGODB_URI:", process.env.MONGODB_URI);
+console.log("POLYGON_RPC_URL:", process.env.POLYGON_RPC_URL);
+console.log("CFD_TOKEN_ADDRESS:", process.env.CFD_TOKEN_ADDRESS);
+console.log("AFFILIATE_MANAGER_ADDRESS:", process.env.AFFILIATE_MANAGER_ADDRESS);
+console.log("ICO_PHASE1_ADDRESS:", process.env.ICO_PHASE1_ADDRESS);
+console.log("USDT_ADDRESS:", process.env.USDT_ADDRESS);
+console.log("ADMIN_WALLET_ADDRESS:", process.env.ADMIN_WALLET_ADDRESS);
+
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
